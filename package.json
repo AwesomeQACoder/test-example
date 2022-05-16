@@ -1,0 +1,26 @@
+{
+  "name": "testcafe-sample",
+  "version": "0.1.0",
+  "description": "A sample of TestCafe for executing tests locally and on Sauce Labs",
+  "main": "index.js",
+  "scripts": {
+    "test.local.chrome": "testcafe chrome tests/ -c 6",
+    "test.sauce.chrome": "testcafe saucelabs:chrome tests/ -c 6",
+    "test.sauce.all": "testcafe saucelabs:chrome,saucelabs:safari,saucelabs:firefox,saucelabs:MicrosoftEdge,saucelabs:'internet explorer' tests/ -c 6",
+    "lint": "eslint . --ext .js"
+  },
+  "keywords": [
+    "testcafe",
+    "sauce",
+    "labs",
+    "automation"
+  ],
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-testcafe": "^0.2.1",
+    "testcafe": "^1.2.0",
+    "testcafe-browser-provider-saucelabs": "^1.7.0"
+  }
+}
