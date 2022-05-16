@@ -6,7 +6,7 @@ This repo is a sample of how to run some tests with TestCafe on your local machi
 This repo used the Sauce Labs Demo app that can be found [here](https://www.saucedemo.com/)
 
 ## Start
-1. Do a git clone `git clone https://github.com/wswebcreation/testcafe-sample.git`
+1. Do a git clone `git clone https://github.com/AwesomeQACoder/test-example.git`
 2. Go to the directory with `cd testcafe-sample` 
 3. Install all dependencies with `npm install`
 
